@@ -20,6 +20,13 @@
 
 `WebAppURL?action=delete&data=1&wkname=worksheetname` 
 
+----
+
+**Delete All Data:**
+> _(delete **all** rows)_
+
+`WebAppURL?action=deleteall&wkname=worksheetname`
+
 ---
 
 **Get Data:**
