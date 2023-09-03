@@ -2,8 +2,8 @@
 
 
 ### How to use it🧐 ?
-
-- First, deploy your app as a web app.
+- First, create a appScript project and copy this [code](https://github.com/VictorCalebeIFG/GoogleSheetsApi/blob/main/appScriptCode.gs) to your editor
+- Then, deploy your app as a web app.
 - Next, get your web app url.
 - Now, to use the api just use as a url request:
 
