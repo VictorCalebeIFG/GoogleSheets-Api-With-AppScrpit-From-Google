@@ -7,34 +7,30 @@
 - Next, get your web app url.
 - Now, to use the api just use as a url request:
 
-**Append Row:**
+👉 **Append Row:**
 > _(add a to **colmun 1**, b to **column 2** and c to **column 3**)_
 
 `WebAppURL?action=append&data=a,b,c&wkname=worksheetname` 
 
 
-----
-
-**Delete Row:**
+👉 **Delete Row:**
 > _(delete **row** 1)_
 
 `WebAppURL?action=delete&data=1&wkname=worksheetname` 
 
-----
 
-**Delete All Data:**
+👉 **Delete All Data:**
 > _(delete **all** rows)_
 
 `WebAppURL?action=deleteall&wkname=worksheetname`
 
----
 
-**Get Data:**
+👉 **Get Data:**
 > _(get all data as jsonFile)_
 
 `WebAppURL?action=getdata&wkname=worksheetname` 
 
 
-### Exemples:
+### 🤝 Exemples:
 - javaScript Module: https://github.com/VictorCalebeIFG/GoogleSheetsApi/blob/main/googleSheetDataBase.js
 - How to use my javaScript module: https://github.com/VictorCalebeIFG/GoogleSheetsApi/blob/main/databaseExemple.js
