@@ -10,7 +10,7 @@
 **Append Row:**
 > _(add a to **colmun 1**, b to **column 2** and c to **column 3**)_
 
-`WebAppURL?action=append&data=a,b,c` 
+`WebAppURL?action=append&data=a,b,c&wkname=worksheetname` 
 
 
 ----
@@ -18,12 +18,12 @@
 **Delete Row:**
 > _(delete **row** 1)_
 
-`WebAppURL?action=delete&data=1` 
+`WebAppURL?action=delete&data=1&wkname=worksheetname` 
 
 ---
 
 **Get Data:**
 > _(get all data as jsonFile)_
 
-`WebAppURL?action=getdata` 
+`WebAppURL?action=getdata&wkname=worksheetname` 
 
