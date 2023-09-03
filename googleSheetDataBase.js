@@ -22,6 +22,10 @@ class gsheetsDataBase{
     deleteDataRow(row){
         fetch(this.gsheeturl+"?action=delete&data="+String(row)+"]&wkname="+this.worksheetname)
     }
+
+    deleteAlldata(){
+        fetch(this.gsheeturl+"?action=deleteall&wkname="+this.worksheetname)
+    }
 }
 
 export default gsheetsDataBase
