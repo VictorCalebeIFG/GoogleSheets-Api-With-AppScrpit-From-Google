@@ -27,3 +27,7 @@
 
 `WebAppURL?action=getdata&wkname=worksheetname` 
 
+
+### Exemples:
+- javaScript Module: https://github.com/VictorCalebeIFG/GoogleSheetsApi/blob/main/googleSheetDataBase.js
+- How to use my javaScript module: https://github.com/VictorCalebeIFG/GoogleSheetsApi/blob/main/databaseExemple.js
