@@ -4,7 +4,7 @@
 ⭐ **First, create an Apps Script project and copy this [code](https://github.com/VictorCalebeIFG/GoogleSheetsApi/blob/main/appScriptCode.gs) to your editor.**
 
 <div align="center">
-  <img src="https://github.com/VictorCalebeIFG/GoogleSheetsApi/assets/84258178/5316ac4a-228e-43b0-9830-97218de2299d" alt="Create Apps Script Folder" width="400"><br><br>
+  <img src="https://github.com/VictorCalebeIFG/GoogleSheetsApi/assets/84258178/5316ac4a-228e-43b0-9830-97218de2299d" alt="Create Apps Script Folder" width="400"><br>
   <font color="grey">Create an Apps Script Project (don't forget to install the Apps Script extension in your Google Drive).</font>
 </div>
 <br><br>
