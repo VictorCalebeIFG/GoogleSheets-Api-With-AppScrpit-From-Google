@@ -5,7 +5,7 @@
 
 <div align="center">
   <img src="https://github.com/VictorCalebeIFG/GoogleSheetsApi/assets/84258178/5316ac4a-228e-43b0-9830-97218de2299d" alt="Create Apps Script Folder" width="400"><br><br>
-  <font color="grey">Create an Apps Script Folder (don't forget to install the Apps Script extension in your Google Drive).</font>
+  <font color="grey">Create an Apps Script Project (don't forget to install the Apps Script extension in your Google Drive).</font>
 </div>
 <br><br>
 <div align="center">
