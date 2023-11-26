@@ -1,8 +1,7 @@
-const databaseUrl = "https://docs.google.com/spreadsheets/d/14ghM2ZuFU1eyYkIVJwKyBgKwIw7tdDja9MYf8kJHuSE/edit#gid=0"
+const databaseUrl = "https://docs.google.com/spreadsheets/d/1qx5-PQ-o8RpWvha6gEnx2ttn4yt4UBm-5plCqgYjYvQ/edit#gid=0"
 
 const tableSheet = SpreadsheetApp.openByUrl(databaseUrl)
 var schemaData = null
-
 
 function doGet(e){
   const action = String(e.parameter['action']).split(",")
@@ -11,7 +10,7 @@ function doGet(e){
   schemaData = tableSheet.getSheetByName(wkname)
   
   if(action == "append"){
-    addRow(e)
+    addRow(e, schemaData)
   }
   else if(action == "delete"){
     deleteRow(e)
@@ -26,9 +25,9 @@ function doGet(e){
   return ContentService.createTextOutput("GsheetApi")
 }
 
-function addRow(e){
+function addRow(e, sheet){
   const URLdata = String(e.parameter['data']).split(",")
-  schemaData.appendRow(URLdata)
+  sheet.appendRow(URLdata)
 }
 
 function deleteRow(e){
